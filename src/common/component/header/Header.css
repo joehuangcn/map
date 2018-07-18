@@ -1,0 +1,37 @@
+.header-css {
+    background: #444d58;
+    color: #FFFFFF;
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+/*更改ant-row高度*/
+.header-css .ant-row {
+    height: 50px ;
+}
+.header-css .ant-row .ant-col-23{
+    height: 50px;
+}
+
+.nav-top{
+    font-size: 16px;
+    overflow: auto;
+    line-height: 50px;
+    width: 930px;
+    padding-left: 0px;
+    margin: 0 !important;
+}
+.nav-top a:link{
+    text-decoration: none;
+}
+
+.nav-top li {
+    float: left;
+    width: 130px;
+    text-align:center;
+    list-style-type:none;
+}
+
+.nav-top a {
+    color:#FFFFFF;
+}

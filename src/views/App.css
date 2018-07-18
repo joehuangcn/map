@@ -1,0 +1,44 @@
+/*!*清除浮动*!*/
+/*.clear-fix:after{*/
+    /*display: table;*/
+    /*overflow: hidden;*/
+    /*content: "";*/
+    /*clear: both;*/
+/*}*/
+.nav-second a {
+    color: #333;
+    text-decoration: none;
+    line-height: 40px;
+}
+.nav-second a:hover{
+    color: #333;
+}
+.nav-second a:active{
+    text-decoration: none;
+}
+.nav-second a:visited{
+    text-decoration: none;
+}
+.nav-second a:link{
+    text-decoration: none;
+}
+.nav-second{
+    background-color: #FFFFFF;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding: 0px !important;
+}
+
+.nav-second li {
+    float: left;
+    width: 140px;
+    text-align:center;
+    border-right: 1px solid #999;
+    list-style-type:none;
+}
+.nav-second li:last-child{
+    border-right: solid 0px #999;
+}

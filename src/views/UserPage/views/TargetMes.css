@@ -1,0 +1,13 @@
+.targetMain {
+	background-color:#CCCCCC;
+	 height: 100%;
+}
+.targetLayout{
+	height: 100%
+}
+.targetList {
+	height: 93%
+}
+.content_main{
+	 min-height:500px;
+}

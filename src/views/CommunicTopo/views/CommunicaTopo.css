@@ -1,0 +1,52 @@
+
+/*搜索条件栏*/
+.TopoSearch{
+  height: 40px !important;
+  line-height: 40px;
+  margin: 0px 0px 10px 0px;
+}
+.TopoSearch .searchSelected{
+   padding-left: 100px !important;
+  margin-top: 4px;
+ }
+
+/*正文左侧拓扑图*/
+.communicTopo .communicTopoTitle {
+  height: 40px;
+  padding-left: 6px;
+  margin-bottom: 0px !important;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 800;
+  background-color: #e4e4e4;
+}
+/*正文右侧table*/
+.communicTopo .tableTitle{
+  margin-bottom: 0px !important;
+  height: 40px;
+  line-height: 40px;
+  background-color: #e4e4e4;
+}
+.communicTopo .tableTitle:after{
+  display: table;
+  overflow: hidden;
+  content: "";
+  clear: both;
+}
+.communicTopo .tableTitle .condition{
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 0px !important;
+  height: 40px;
+  line-height: 40px;
+}
+.communicTopo .tableTitle Button {
+  margin-top: 4px;
+  float: right;
+  line-height: 32px;
+  height: 32px;
+  margin-right: 20px;
+}
+.communicTopo .ant-spin-container .ant-pagination li{
+  margin-right: 8px;
+}

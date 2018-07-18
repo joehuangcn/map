@@ -1,0 +1,11 @@
+{
+  "data":{
+          "legendData":  ["短信文种"],
+          "yAxisData":["AAA-BBB-CCC-111","AAA-BBB-CCC-211","AAA-BBB-CCC-411","AAA-BBB-CCC-113","AAA-FFF-CCC-111","AAA-BBB-CCC-1R1","AAA-BBB-DDD-1W1"],
+          "series":{
+            "name": "",
+            "data": [400000,440000,460000,470000,490000,500000,640000]
+        },
+          "xAxisData":""
+        }
+  }
